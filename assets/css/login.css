@@ -1,0 +1,34 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: url(/assets/images/login_bg.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.login_box {
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    margin:  100px auto;
+}
+.title_box {
+    height: 60px;
+   text-align: center;
+   line-height: 60px;
+
+}
+.reg_bd {
+    display: none;
+    padding: 0 40px;
+}
+.login_bd {
+    padding: 0 40px;
+}
