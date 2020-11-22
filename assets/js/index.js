@@ -1,5 +1,3 @@
-
-
 $(function(){
 
 
@@ -41,9 +39,9 @@ $(function(){
 
   function avater(user) {
 
-    var name = user.username ||nickname 
+    var name = user.nickname|| user.username 
     
-    $('#welcome').html('欢迎&nbsp;&nbsp;'+name)
+    $('#welcome').html('欢迎&nbsp;&nbsp;'+ name)
 
     if(user.user_pic !== null) {
           $('.text-avater').hide()
