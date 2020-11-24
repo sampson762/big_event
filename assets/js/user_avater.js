@@ -13,14 +13,6 @@ $(function(){
   $image.cropper(options)
 
 
-
-
-
-
-
-
-
-
   $('#btn_up').on('click',function(){
     $('#file').click()
 
@@ -54,7 +46,6 @@ $('#btn_uplode').on('click',function(){
       height: 100
     })
     .toDataURL('image/png/jpeg')          // 将 Canvas 画布上的内容，转化为 base64 格式的字符串
-
     $.ajax({
         method:"POST",
         url: "/my/update/avatar",

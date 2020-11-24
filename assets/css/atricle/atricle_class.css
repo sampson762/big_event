@@ -1,0 +1,46 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background: url(/assets/images/015365b9ebe2529581ddf09370afd578.jpg) no-repeat;
+    background-size: cover;
+    padding: 15px;
+
+}
+
+.layui-card {
+
+    background-color: #00000093;
+    color: white;
+
+}
+
+.layui-table {
+
+    opacity: 0.65;
+
+}
+
+.layui-card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#form-add {
+    padding: 20px;
+}
+
+.layui-input-block {
+
+    margin-left: 90px;
+
+}
+
+.layui-form-label {
+    width: 60px;
+    text-align: center;
+}
