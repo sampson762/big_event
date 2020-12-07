@@ -63,6 +63,7 @@ function initCates(){
         success: function (res) {
             if(res.status != 0) return layer.msg('获取文章分类失败')
             var str = template('tpl_class',res)
+            console.log(str);
             $('#cate').html(str)
             //通知layui 重新渲染表单区域的ui结构
             form.render()

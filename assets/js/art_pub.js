@@ -10,8 +10,8 @@ $.ajax({
     url: "/my/article/cates",
     success: function (res) {
             if(res.status  != 0 ) return layer.msg('获取请求失败')
-
             var htmlStr = template('tpl',res)
+            console.log(htmlStr);
             $('select').html(htmlStr)
             form.render()
         }

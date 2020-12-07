@@ -1,5 +1,6 @@
 $.ajaxPrefilter(function(opt){
-    opt.url = "http://ajax.frontend.itheima.net" + opt.url
+    // opt.url = "http://ajax.frontend.itheima.net" + opt.url
+    opt.url = "http://127.0.0.1" + opt.url
 
 
     if (opt.url.indexOf('/my/') !== -1) {

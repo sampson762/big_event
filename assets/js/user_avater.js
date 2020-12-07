@@ -50,7 +50,7 @@ $('#btn_uplode').on('click',function(){
         method:"POST",
         url: "/my/update/avatar",
         data: {
-            avatar: dataURL
+            avater: dataURL
         },
         success: function (res) {
             if(res.status !=0) return layer.msg('更换头像失败!')
